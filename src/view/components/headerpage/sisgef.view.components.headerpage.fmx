@@ -1,0 +1,71 @@
+object ComponentHeaderPage: TComponentHeaderPage
+  Size.Width = 844.000000000000000000
+  Size.Height = 50.000000000000000000
+  Size.PlatformDefault = False
+  object LayoutContainer: TLayout
+    Align = Client
+    Size.Width = 844.000000000000000000
+    Size.Height = 50.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object LayoutDescApp: TLayout
+      Align = Left
+      Size.Width = 200.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object LayoutLogoApp: TLayout
+        Align = Left
+        Size.Width = 50.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object CircleLogoApp: TCircle
+          Align = Client
+          Fill.Kind = None
+          Size.Width = 50.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          Stroke.Color = xFF556574
+          object ImageLogoApp: TImage
+            MultiResBitmap = <
+              item
+              end>
+            Align = Client
+            Size.Width = 50.000000000000000000
+            Size.Height = 50.000000000000000000
+            Size.PlatformDefault = False
+          end
+        end
+      end
+      object LayoutAppName: TLayout
+        Align = Client
+        Margins.Left = 5.000000000000000000
+        Size.Width = 145.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 1
+        object LabelAppName: TLabel
+          Align = Client
+          StyledSettings = [Size, Style]
+          Size.Width = 145.000000000000000000
+          Size.Height = 50.000000000000000000
+          Size.PlatformDefault = False
+          TextSettings.Font.Family = 'Verdana'
+          TextSettings.FontColor = xFF556574
+          Text = 'LabelAppName'
+          TabOrder = 0
+        end
+      end
+    end
+    object LayoutUserButon: TLayout
+      Align = Right
+      Padding.Top = 5.000000000000000000
+      Position.X = 664.000000000000000000
+      Size.Width = 180.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+    end
+  end
+end

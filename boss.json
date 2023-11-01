@@ -1,0 +1,13 @@
+{
+	"name": "sisgefTransportControl",
+	"description": "TMS MaMutti",
+	"version": "5.2.0",
+	"homepage": "www.novorioexpress.com",
+	"mainsrc": "./src",
+	"projects": [],
+	"dependencies": {
+		"https://github.com/academiadocodigo/router4delphi": "^1.0.8",
+		"https://github.com/alepmedeiros/chart4delphi": "^v1.0.0",
+		"https://github.com/gabrielbaltazar/gbjson": "^1.0.11"
+	}
+}
